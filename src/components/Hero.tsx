@@ -32,7 +32,10 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero__logo">
-          <img src="/logo_negro.png" alt="Logo CdR Reparaciones" />
+          <img
+            src="/CdR-Reparaciones/logo_negro.png"
+            alt="Logo CdR Reparaciones"
+          />
         </div>
       </div>
     </section>
