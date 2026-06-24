@@ -1,0 +1,82 @@
+.sobre-mi__layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.sobre-mi__visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.sobre-mi__avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgba(212, 180, 37);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sobre-mi__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sobre-mi__badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 0.4rem 1rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.sobre-mi__badge-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+
+.sobre-mi__text p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-size: 0.975rem;
+}
+
+.sobre-mi__puntos {
+  list-style: none;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.sobre-mi__puntos li {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .sobre-mi__layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+  .sobre-mi__puntos {
+    align-items: center;
+  }
+}
