@@ -3,7 +3,7 @@ import "./Precios.css";
 const planes = [
   {
     nombre: "Diagnóstico",
-    precio: "$19.500",
+    precio: "$0",
     desc: "Evaluación completa del equipo e informe de fallas.",
     items: [
       "Revisión de hardware",
@@ -27,7 +27,7 @@ const planes = [
   },
   {
     nombre: "Mantenimiento de PC, Notebook e All in one",
-    precio: "$45.000",
+    precio: "$40.000",
     desc: "Limpieza, optimización y puesta a punto de tu equipo.",
     items: ["Limpieza profunda", "Cambio pasta térmica", "Revisión general"],
     destacado: false,
